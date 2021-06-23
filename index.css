@@ -1,0 +1,107 @@
+/* Styling of navigation bar */
+nav{
+    display:flex;
+}
+
+.navBar{
+    background-color:rgba(250,250,250,0.1);
+    position:fixed;  /*sets nav bar to a fixed position*/
+    top: 0;
+    width: 100%;
+ }
+
+.navBar ul li{
+    display: inline-block;
+    padding: 8px 12px;
+ }
+.navBar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 17px; 
+    font-weight: 100;  
+    
+ }
+ .navBar a:hover{
+    background:red;
+    color:red;
+ }
+ .navBar #signup{
+    background-color: red;
+    color:white;
+    padding: 10px 15px;
+    font-size: 19px;
+}
+#signup:hover{
+    color: white;
+    background-color: rgb(245, 170, 170);
+}
+.navBar #beyond{
+    margin-right: 380px;
+    font-size:25px;
+    font-weight: bolder;
+}
+.navBar #limit{
+    color:red;
+    font-size: 25px;
+    font-weight: bolder;
+   
+}
+ /* Div class for the video */
+.entry{
+    padding: 0;
+    height: 700px;;
+    width:500px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: -40px;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+/* Style the video */
+.entry{
+    width: 100%;
+    height: 800px;
+}
+.entry video{
+    width:100%;
+    height:100%;
+}
+.text{
+    position: absolute;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    top: 35%;
+    left: 15%;
+    font-size: 30px;  
+}
+#easy{
+    font-size: 80px;
+}
+.text #gym{
+    color:red;
+}
+#become{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    padding: 15px 32px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+#become:hover{
+    color: white;
+    background-color: rgb(245, 170, 170);
+}
+@media (max-width:415px){
+    .text{
+        color: white;
+        top: 20%;
+        left: 15%;
+        font-size: 30px;
+    }    
+}
